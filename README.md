@@ -1,28 +1,107 @@
 # Diabetes Diagnosis Data Analysis
 
-## Project Charter
+## Project Summary
 
+This project aims to develop a predictive model that can accurately identify patients with elevated risks of diabetes using their demographic and clinical data. The goal of this project is to provide a window into trends that may be more common for patients at risk of diabetes so medical practitioners can have some early warning signs to look out for during the disease screening. This will be done through the use of exploratory data analysis, machine learning, and dashboard creation as ways to identify the key risk factors and group patients by risk categories. THe final deliverables will be a predictive model and an interactive dashboard in power bi.
 
+## Why it matters
 
-#### Main Goal: 
+Diabetes affects millions of individuals and early identification can help avoid significant health complications from the disease. Diabetes is a disease that can occur even if no family history which creates a situation where it may not be directly screened for in a patient. Creating tools that can identify high risk patients allows for doctors to be on the look out for the disease early on in the process.
 
-#### A healthcare organization want to study trends in patients data to see if certain lifestyles see an elevated risk of Type 2 Diabetes.
+## Project Objectives
+* Analyze diabetes risk factors
+* Identify variables associated with diabetes
+* Build a few different predictive models
+* Evaluate models performance against one another
+* Categorize patients into risk groups
+* Create a dashboard for healthcare stakeholders.
 
-or
+## Data Set Overview
 
-#### A healthcare organization wants to identify patients at elevated risk of Type 2 Diabetes so preventative interventions can be targeted efficiently.
+Source: The Behavioral Risk Factor Surveillance System (BRFSS) by the CDC
+> Sourced from Kaggel (https://www.kaggle.com/datasets/alexteboul/diabetes-health-indicators-dataset)
 
+Contained 3 files
+1. diabetes _ 012 _ health _ indicators _ BRFSS2015.csv
+ - 253,680 records
+ - Data split into 3 classes (0 for no diabetes, 1 for prediabetic, 2 for diabetic)
+ - 21 feature variables
+2. diabetes _ binary _ 5050split _ health _ indicators _ BRFSS2015.csv
+ - 70,692 records
+ - 2 classes (0 for diabetes and 1 for prediabetic)
+ - Classes are split 50-50 between the 2 classes
+ - 21 features
+3. diabetes _ binary _ health _ indicators _ BRFSS2015.csv
+   - 253,680 records
+   - 2 classes (0 for diabetes and 1 for prediabetic)
+   - Not balanced
 
+Features
+- Diabetes Class
+- HighBP
+- HighChol
+- CHolCheck
+- BMI
+- Smoker
+- HeartDiseaseorAttack
+- PhysActivity
+- Fruits
+- Veggies
+- HvyAlcoholConsump
+- AnyHealthcare
+- NoDocbcCost
+- GenHlth
+- MentHlth
+- PhysHlth
+- DiffWalk
+- Sex
+- Age
+- Education
+- Income
 
-Scope:
+## Data Dictionary
+A complete data dictionary is available in:
+/documentation/data_dictionary.md
 
-* Utilize at least 2 different models and compare the accuracy/scores to see which model fits the use case more
+example 1
+example 2
+example 3
 
-  * Ex: Logistic Regression, Random Forest
-* Create a conclusion that could drive actionable items for individuals with high risk of Type 2 Diabetes
-* Consider the questions
+##Data Cleaning:
+________
 
-  * Which populations are most at risk
-  * What interventions could reduce risk
-  * How should limited screening resource be allocated? 
+##Exploratory Data Analysis
+
+----------------
+
+##Modeling Approach
+
+---------------
+
+##Results
+
+-----------------
+
+##Risk Satisfaction
+
+--------------------------
+
+##Dashboard
+
+-------------------------
+
+## Business Recommendation
+
+------------------------
+
+## Project Structure
+
+------------------------
+
+## Tools used
+
+-------------------------
+
+## Future Improvements
+
 
