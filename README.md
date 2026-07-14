@@ -68,15 +68,39 @@ example 2
 example 3
 
 ##Data Cleaning:
-________
+
+Due to the file coming preprepared a full data cleaning step was not neccesary but nonetheless I varified the following to ensure a proper data clean up was done by the file provider:
+- Checked for null or missing values
+- Varified value ranges for each column (Ex. Binary columns should be 0 or 1)
+- Insured each column had the correct typing for the data it represented
 
 ##Exploratory Data Analysis
 
-----------------
+During this step i created a notebook to start to understand the data available to me in the provided files by performing the following:
+- Created a break down of the distribution of values for certain key columns
+- Determined the correlation each column had to the diabetes class outcome
+- Compared the distribution of each diabetes classification to each other
+
+### BMI Distribution
+
+### Age Distribution
+
+### Correlation to Outcome
 
 ##Modeling Approach
 
----------------
+## Predictive Modeling
+
+Models Evaluated:
+
+1. Logistic Regression
+2. Random Forest Classifier
+
+Evaluation Metrics:
+
+- Accuracy
+- Precision
+- Recall
 
 ##Results
 
